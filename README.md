@@ -75,3 +75,5 @@ v16.15.0
 
 npm --version
 8.5.3
+
+### Please, use an extension to allow CORS in the browser, so it will work properly.
