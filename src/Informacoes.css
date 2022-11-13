@@ -1,0 +1,11 @@
+h1, h2, h4{
+    color : rgb(117, 117, 117);
+}
+
+h3 {
+    color: rgb(26, 99, 141);
+}
+
+.elemento-info {
+    margin: 20px 0px 20px 0px;
+}
