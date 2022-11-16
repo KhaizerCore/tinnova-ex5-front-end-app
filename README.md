@@ -68,3 +68,12 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### Versions of Node and NPM used to develop the application
+node --version
+v16.15.0
+
+npm --version
+8.5.3
+
+### Please, use an extension to allow CORS in the browser, so it will work properly.
