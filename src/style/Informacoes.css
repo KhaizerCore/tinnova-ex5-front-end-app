@@ -13,3 +13,8 @@ h3 {
 .basic-card{
     width: 300px;
 }
+
+.div-conteudo-informacoes{
+    display: flex;
+    justify-content: center;
+}
