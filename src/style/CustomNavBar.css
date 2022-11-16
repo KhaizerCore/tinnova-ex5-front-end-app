@@ -1,0 +1,32 @@
+.navbar-element{
+    background: rgb(20,51,91);
+background: linear-gradient(225deg, rgba(20,51,91,1) 0%, rgba(133,31,113,1) 36%, rgba(230,230,230,1) 79%);
+}
+
+.nav-item {
+    margin-left: 10px;
+}
+
+.nav-link{
+    padding-top: 20px;
+    text-decoration: none;
+    
+}
+
+.tinnova-logo-li{
+    margin-left: 10px;
+}
+
+.car-logo-li{
+    margin-left : 20px;
+}
+
+.car-logo{
+    filter: invert(0.2);
+    height: 70px;
+    width: auto;
+}
+
+.nav-link > h3 {
+    color: rgb(41, 41, 41);
+}

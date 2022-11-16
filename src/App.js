@@ -1,13 +1,13 @@
 import React from 'react';
-import './App.css';
+import './style/App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Button, Navbar } from 'react-bootstrap';
 
-import CustomNavBar from './CustomNavBar';
-import Cadastro from './Cadastro';
-import Atualizacao from './Atualizacao';
-import Exclusao from './Exclusao';
-import Informacoes from './Informacoes';
+import CustomNavBar from './components/CustomNavBar';
+import Cadastro from './components/Cadastro';
+import Atualizacao from './components/Atualizacao';
+import Exclusao from './components/Exclusao';
+import Informacoes from './components/Informacoes';
 
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
@@ -40,7 +40,7 @@ const App = () => {
           {/* <Cadastro/> */}
         </div>
         <footer>
-
+          <div></div>
         </footer>
       </div>
     </Router>

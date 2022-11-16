@@ -1,6 +1,6 @@
 import React from 'react';
 import { Button, Navbar } from 'react-bootstrap';
-import './Atualizacao.css';
+import '../style/Atualizacao.css';
 
 const Atualizacao = () => {
     const handleSubmit = event => {

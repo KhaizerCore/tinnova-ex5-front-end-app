@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { Button, Navbar } from 'react-bootstrap';
 
-import './Informacoes.css';
+import BasicCard from './BasicCard';
+
+import '../style/Informacoes.css';
 
 const Informacoes = () => {
 
@@ -81,31 +83,31 @@ const Informacoes = () => {
 
     return(
         <div>
-            <div className="div-titulo-informacoes">
+            {/* <div className="div-titulo-informacoes">
                 <h2>
                     Informações dos veículos
                 </h2>
-            </div>
+            </div> */}
             <div className = "div-conteudo-informacoes">
                 <ul className = "lista-informacoes">
                     <li className = "elemento-info">
                         <div>
-                            <h4>Quantidade de veículos não vendidos: {qtdVeiculosNaoVendidos}</h4>                            
+                            <BasicCard title={qtdVeiculosNaoVendidos} description="Quantidade de veículos não vendidos"/>                            
                         </div>
                     </li>
                     <li className = "elemento-info">
                         <div>
-                            <h4>Quantidade de veículos por década de fabricação: {qtdVeiculosDecadaFabr}</h4>                            
+                            <BasicCard title={qtdVeiculosDecadaFabr} description="Quantidade de veículos por década de fabricação"/>                          
                         </div>
                     </li>
                     <li className = "elemento-info">
                         <div>
-                            <h4>Distribuição de veículos por fabricante: {veiculosPorFabricante}</h4>                            
+                            <BasicCard title={veiculosPorFabricante} description="Distribuição de veículos por fabricante"/>                      
                         </div>
                     </li>
                     <li className = "elemento-info">
                         <div>
-                            <h4>Carros registrados na última semana: {veiculosUltimaSemana}</h4>                            
+                            <BasicCard title={veiculosUltimaSemana} description="Carros registrados na última semana"/>                         
                         </div>
                     </li>
                 </ul>

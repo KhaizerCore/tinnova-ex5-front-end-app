@@ -1,6 +1,8 @@
 import React from 'react';
 import { Button, Navbar } from 'react-bootstrap';
 
+import '../style/Exclusao.css';
+
 const Exclusao = () => {
 
     const handleSubmit = event => {
